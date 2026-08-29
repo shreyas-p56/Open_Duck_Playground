@@ -89,7 +89,7 @@ class BaseRunner(ABC):
         )  # TODO
         self.ppo_training_params = dict(self.ppo_params)
         # self.ppo_training_params["num_timesteps"] = 150000000 * 20
-        self.ppo_training_params["num_envs"] = 4096
+        self.ppo_training_params["num_envs"] = 2048
         
 
         if "network_factory" in self.ppo_params:
