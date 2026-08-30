@@ -93,7 +93,7 @@ def default_config() -> config_dict.ConfigDict:
         ),
         lin_vel_x=[-0.15, 0.15],
         lin_vel_y=[-0.2, 0.2],
-        ang_vel_yaw=[-1.0, 1.0]
+        ang_vel_yaw=[-1.0, 1.0],
         neck_pitch_range=[-0.34, 1.1],
         head_pitch_range=[-0.78, 0.78],
         head_yaw_range=[-1.5, 1.5],
